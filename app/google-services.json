@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "974863347109",
+    "firebase_url": "https://ksusta-d613f-default-rtdb.firebaseio.com",
+    "project_id": "ksusta-d613f",
+    "storage_bucket": "ksusta-d613f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974863347109:android:3bb60439b224739310cc4c",
+        "android_client_info": {
+          "package_name": "developer.boltech.ksustamobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974863347109-s0ftp6vfboa7n4s5kg6tkn71hg4c30rs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6zQPRkxf23UOjz8vVUtJfpC9CvNu36xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974863347109-s0ftp6vfboa7n4s5kg6tkn71hg4c30rs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974863347109:android:782e14e2c741fe7c10cc4c",
+        "android_client_info": {
+          "package_name": "developer.boltech.technologies.ksustaadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974863347109-s0ftp6vfboa7n4s5kg6tkn71hg4c30rs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6zQPRkxf23UOjz8vVUtJfpC9CvNu36xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974863347109-s0ftp6vfboa7n4s5kg6tkn71hg4c30rs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

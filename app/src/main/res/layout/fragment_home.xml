@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:layout_marginTop="10dp"
+                android:id="@+id/smartSlider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="Welcome Address"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/vcksusta"
+                android:scaleType="fitCenter"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Vice Chancellor"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Prof. Bashar Jega"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="BSc, MSc, Phd, FNSR"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/merriweather"
+                android:lineHeight="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:text="@string/vc_welcome_address" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/deleteNoticeRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp" />
+
+            <ProgressBar
+                android:id="@+id/progresssBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:id="@+id/college_image"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="ABOUT KSUSTA"
+                style="bold"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:lineHeight="20dp"
+                android:fontFamily="@font/merriweather"
+                android:justificationMode="inter_word"
+                android:text="Kebbi State University of Science and Technology was established in 2006 and commissioned in 2007. KSUSTA admitted it's first student in 2007, accepting over 200 intakes in the department of biochemistry, mathematics, chemistry and agricultural science. In 2009, there was a significant increase in the number of admitted students which was twice the intake of the first year."
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="DEPARTMENTS"
+                android:layout_marginTop="20dp"
+                android:textSize="14sp" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="8dp"
+                android:foregroundGravity="center"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                android:id="@+id/viewPager"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

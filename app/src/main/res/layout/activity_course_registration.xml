@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseRegistrationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_courseRegistration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Registration"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_first_semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Semester"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tv_courseRegistration"
+            android:fontFamily="@font/poppins_bold"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_1"
+            android:layout_below="@+id/tv_first_semester"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_2"
+            android:layout_below="@+id/course_category_1"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_3"
+            android:layout_below="@+id/course_category_2"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_4"
+            android:layout_below="@+id/course_category_3"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_5"
+            android:layout_below="@+id/course_category_4"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_6"
+            android:layout_below="@+id/course_category_5"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_7"
+            android:layout_below="@+id/course_category_6"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_second_semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second Semester"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/course_category_7"
+            android:fontFamily="@font/poppins_bold"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_8"
+            android:layout_below="@+id/tv_second_semester"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_9"
+            android:layout_below="@+id/course_category_8"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_10"
+            android:layout_below="@+id/course_category_9"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_11"
+            android:layout_below="@+id/course_category_10"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_12"
+            android:layout_below="@+id/course_category_11"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_13"
+            android:layout_below="@+id/course_category_12"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/course_category_14"
+            android:layout_below="@+id/course_category_13"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Button
+            android:id="@+id/btn_update_course_registration"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Update"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/background"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/course_category_14"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

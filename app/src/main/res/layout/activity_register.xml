@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/learnImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/group_5"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/createAccountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create new account"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_below="@+id/learnImageView"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/createAccountTextView"
+        android:layout_marginTop="10dp"
+        android:hint="Full Name"
+        android:drawableLeft="@drawable/ic_user"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fullName"
+        android:layout_marginTop="10dp"
+        android:hint="Email Address"
+        android:drawableLeft="@drawable/ic_mail"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/admissionNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailAddress"
+        android:layout_marginTop="10dp"
+        android:hint="Admission Number"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_admission"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter phone number"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/admissionNo"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_lock"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawablePadding="10dp"
+        />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/background"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/password"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already signed up? Login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_light"
+        />
+
+    <TextView
+        android:id="@+id/already_registered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already signed up? Login"
+        android:textColor="#FF6200EE"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_light"
+        />
+
+</RelativeLayout>

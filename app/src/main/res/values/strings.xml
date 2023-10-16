@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">KSUSTA Mobile App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="vc_welcome_address">It is my pleasure to welcome you to welcome you to Kebbi State University of Science and Technology Aliero. KSUSTA is a university known for its peaceful environment and academic excellence.</string>
+
+    <string-array name="list_of_courses">
+
+        <item>EEE411 - Control System Engineering</item>
+        <item>EEE413 - Digital Systems</item>
+        <item>EEE417 - Electrical and Electronics Laboratory III</item>
+        <item>ENG412 - Engineering Statistics</item>
+        <item>ICT401 - Management Information System</item>
+        <item>ICT405 - Satellite Communication</item>
+        <item>ICT407 - Software Engineering</item>
+        <item>ICT411 - Data Communication Network and Network</item>
+        <item>ENG403 - Student Industrial Work Experience Scheme (SIWES)</item>
+        <item>GST301 - Use of English</item>
+
+<!--        500l courses starts here-->
+        <item>EEE507 - Digital Signal Processing</item>
+        <item>ICT501 - Project Management</item>
+        <item>ICT503 - Mobile Communication and Networking</item>
+        <item>ICT505 - Java Technology and Programming</item>
+        <item>ICT507 - Micro-computer Hardware and Programming</item>
+        <item>ICT509 - Artificial Neural Networks</item>
+        <item>ICT515 - E-Commerce Technology</item>
+        <item>EEE520 - Telecommunication System and Design</item>
+        <item>ENG520 - Engineering Law Economics and Management</item>
+        <item>ICT504 - Computer Graphics and Animation</item>
+        <item>ICT506 - Computer Security Techniques</item>
+        <item>ICT508 - Cyberpreneurship and Media Law</item>
+        <item>ICT510 - Communication Electronics</item>
+        <item>ICT598 - Project II</item>
+
+    </string-array>
+</resources>

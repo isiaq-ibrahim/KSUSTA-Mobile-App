@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="General">
+
+        <SwitchPreference
+            android:key="theme_preference"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_palette"
+            android:title="Dark Theme"/>
+
+        <SwitchPreference
+            android:key="notification_preference"
+            android:defaultValue="false"
+            android:summaryOff="Notification disabled"
+            android:summaryOn="Notification enabled"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notification"/>
+
+        <Preference
+            android:key="app_language_preference"
+            android:icon="@drawable/ic_language"
+            android:summary="English (phone\'s language)"
+            android:title="App language">
+        </Preference>
+
+        <Preference
+            android:key="policy_preference"
+            android:icon="@drawable/ic_policy"
+            android:title="Terms and Privacy Policy">
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Security">
+
+        <SwitchPreference
+            android:key="biometric_preference"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_fingerprint"
+            android:title="Enable Biometric Authentication"/>
+
+        <Preference
+            android:key="report_preference"
+            android:icon="@drawable/ic_whistle"
+            android:summary="Report any fraudulent activity on the mobile app"
+            android:title="Whistle Blower"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="About">
+
+        <Preference
+            android:title="Version"
+            android:icon="@drawable/ic_device_information"
+            android:summary="1.0.0"/>
+
+        <Preference
+            android:title="Contact Us"
+            android:icon="@drawable/ic_contact"
+            android:key="contact_preference"/>
+
+        <Preference
+            android:title="More Apps"
+            android:icon="@drawable/ic_more"
+            android:key="more_apps_preference" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

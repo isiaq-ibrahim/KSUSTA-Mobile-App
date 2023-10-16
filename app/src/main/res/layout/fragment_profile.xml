@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name:"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/fullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewFullName"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/textViewEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address:"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/fullName"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/emailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewEmailAddress"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/textViewAdmissionNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admission Number:"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/emailAddress"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/admissionNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewAdmissionNo"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/textViewPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number:"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/admissionNo"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewPhoneNumber"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/student_biodata"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_below="@+id/phone"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="10dp"
+                    android:background="@drawable/circle_blue"
+                    android:src="@drawable/ic_biodata"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student Biodata"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/medical_form"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/phone"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="10dp"
+                    android:background="@drawable/circle_green"
+                    android:src="@drawable/ic_medical_information"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medical Form"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/course_registration"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_below="@+id/student_biodata"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="10dp"
+                    android:background="@drawable/circle_orange"
+                    android:src="@drawable/ic_course_registration"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Registration"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/payment_invoice"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/medical_form"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="10dp"
+                    android:background="@drawable/circle_red"
+                    android:src="@drawable/ic_payment_invoice"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Payment Invoice"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</ScrollView>

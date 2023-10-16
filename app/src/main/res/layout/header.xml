@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="#fff"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        />
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Welcome"-->
+<!--        android:fontFamily="@font/poppins_bold"-->
+<!--        android:textSize="14sp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/fullName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text=""-->
+<!--        android:fontFamily="@font/merriweather"-->
+<!--        android:textSize="12sp"-->
+<!--        />-->
+
+</LinearLayout>
